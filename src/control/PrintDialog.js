@@ -983,6 +983,8 @@ ol_control_PrintDialog.prototype.formats = [{
 
 /** List of print scale */
 ol_control_PrintDialog.prototype.scales = {
+  ' 500': '1/500',
+  ' 1000': '1/1.000',
   ' 5000': '1/5.000',
   ' 10000': '1/10.000',
   ' 25000': '1/25.000',
