@@ -266,7 +266,7 @@ var ol_control_PrintDialog = class olcontrolPrintDialog extends ol_control_Contr
     })
     var north = this._input.north = ol_ext_element.createSwitch({
       html: this.i18n('north'),
-      checked: 'checked',
+      checked: false,
       on: {
         change: function () {
           if (north.checked)
